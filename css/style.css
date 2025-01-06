@@ -341,7 +341,7 @@ section {
 
 }
 
-.for-create-playlist span:hover{
+.for-create-playlist span:hover {
 
     transform: scale(1.04);
     cursor: pointer;
@@ -379,7 +379,7 @@ section {
 }
 
 
-.mid-left-section-links div a:hover{
+.mid-left-section-links div a:hover {
 
     text-decoration: underline;
 }
@@ -403,12 +403,12 @@ section {
 
 
 
-.for_english:hover{
+.for_english:hover {
 
     transform: scale(1.04);
     cursor: pointer;
     border: 1px solid #fff;
-} 
+}
 
 .mid_right_section {
 
@@ -457,12 +457,12 @@ section {
 }
 
 
-.for-heading :nth-child(1):hover{
+.for-heading :nth-child(1):hover {
 
     text-decoration: underline;
 }
 
-.for-heading :nth-child(2):hover{
+.for-heading :nth-child(2):hover {
 
     text-decoration: underline;
 }
@@ -509,7 +509,7 @@ section {
 }
 
 
-.midright-flex-col a:hover{
+.midright-flex-col a:hover {
 
     text-decoration: underline;
 }
@@ -622,7 +622,7 @@ section {
 }
 
 
-.for_footer-col ul li a:hover{
+.for_footer-col ul li a:hover {
 
     cursor: pointer;
     text-decoration: underline;
@@ -658,7 +658,7 @@ section {
 }
 
 
-.for_footer-logo div:hover{
+.for_footer-logo div:hover {
 
     background-color: rgb(114, 114, 114);
     cursor: pointer;
@@ -723,8 +723,220 @@ section {
 }
 
 
-.for_preview_right:hover{
+.for_preview_right:hover {
 
     transform: scale(1.04);
     cursor: pointer;
+}
+
+
+
+
+/* first page css end  */
+
+
+
+/* sign-up page css start */
+
+
+
+
+.main {
+
+    width: 100%;
+    height: 870px;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+
+.sign_up-header {
+
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sign-up-mid-section {
+
+    width: 330px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.sign-up-mid-section h1 {
+
+
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.for_signup_input_box {
+
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.for_signup_input_box label {
+
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: start;
+
+}
+
+
+[type="email"] {
+
+    height: 45px;
+    padding: 12px;
+    background-color: transparent;
+    outline: 1px solid #7c7c7c;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+}
+
+[type="email"]:hover{
+
+    border: 1px solid #fff;
+}
+
+
+.for_signup_input_box a {
+
+    color: #1ed760;
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.for_next_button {
+
+    width: 100%;
+    height: 50px;
+    background-color: #1ed760;
+    border-radius: 25px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.for_line {
+    width: 100%;
+    color: #646464;
+    border: none;
+    border-bottom: #646464 1px solid;
+    position: relative;
+}
+
+.for_line::after {
+    content: "or";
+    background-color: #7c7c7c;
+    height: 19px;
+    width: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    left: 45%;
+    top: -10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sign_up_options {
+
+    width: 100%;
+    height: 210px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    border-bottom: 2px solid #292929;
+
+}
+
+.option1 {
+
+    width: 100%;
+    height: 50px;
+    border: 1px solid #7c7c7c;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px;
+    gap:45px;
+    cursor: pointer;
+}
+
+
+.option1:hover{
+
+    border: 1px solid #fff;
+}
+
+
+.sign-up-mid-section>p {
+
+
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sign-up-mid-section>p a {
+
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sign_up_bottom{
+
+    width: 100%;
+    height: 81px;
+    background: transparent;
+    color: #b3b3b3;
+    font-size:12px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.sign_up_bottom a{
+
+    text-decoration: underline;
+
 }
