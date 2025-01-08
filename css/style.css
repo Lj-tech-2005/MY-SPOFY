@@ -291,9 +291,23 @@ section {
     width: 264px;
     height: 133px;
     margin: auto;
-    overflow: auto;
+   overflow: hidden;
+    cursor: pointer;
+
+    
+}
+
+.for-scroll-section:hover{
+
+    overflow:auto;
+
 
 }
+
+
+
+
+
 
 
 .for-create-playlist {
